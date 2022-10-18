@@ -1,26 +1,28 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>yasinda_html_day2</title>
+        <title>yasinda_html_day3</title>
         <style type="text/css">
-            b{letter-spacing: 5px;}
+            .desc b {letter-spacing: 5px;}
             th{background-color: rgb(201, 204, 129);}
+            .shopping b {letter-spacing: 5px;}
+            .shopping td {text-align: center;}
         </style>
     </head>
         <body style="background-color: rgb(190, 190, 180);">
             <h2 align="center">WELCOME TO MY PROFILE</h2>
-            <table align="center" width="800px" border="1px" cellpadding="5" style="background-color: rgb(203, 162, 162);">
+            <table class="desc" align="center" width="100%" border="1px" cellpadding="5" style="background-color: rgb(203, 162, 162);">
                 <tr>
                     <td align="center" colspan="3" bgcolor="grey" >
                         <b><h2>BIODATA</h2></b>
                     </td>
                 </tr>
                 <tr>
-                    <th bg>FOTO</th>
+                    <th>FOTO</th>
                     <th colspan="2" bgcolor="grey">IDENTITAS DIRI</th>
                 </tr>
                 <tr>
-                    <td rowspan="8" align="center">
+                    <td rowspan="7" align="center">
                         <img src="image/yasinda.jpg" width="250px" height="350px">
                     </td>
                     <td>Nama Lengkap</td>
@@ -36,12 +38,11 @@
                         orang lain adalah hal yang menyenangkan bagi
                         saya, karena dengan begitu saya bisa memahami
                         karakter banyak orang untuk bisa membangun
-                        hubungan yang lebih baik.</td>
+                        hubungan yang lebih baik</td>
                 </tr>
                 <tr>
-                    <tr>
-                        <td>Tempat, tanggal lahir</td>
-                        <td>Boyolali, 8 September 2002</td>
+                    <td>Tempat, tanggal lahir</td>
+                    <td>Boyolali, 8 September 2002</td>
                 </tr>
                 <tr>
                     <td>Umur</td>
@@ -60,9 +61,94 @@
                     <td align="center">
                         <a href="https://www.instagram.com/ysndilmia_">
                             <img src="image/Instagram_icon.png" width="50px" height="50px"></a>
-                        </a></td>
+                        </a>
+                    </td>
                 </tr>
-                <td align="center" colspan="3" bgcolor="grey"></td>
+                <td align="center" colspan="7" bgcolor="grey"></td>
+            </table>
+            <br>
+            <br>
+            <table class="shopping" align="center" width="100%" border="1px" cellpadding="5" style="background-color: rgb(203, 162, 162);">
+                <tr>
+                    <td colspan="7" bgcolor="grey" >
+                        <b><h2>SHOPPING LIST</h2></b>
+                    </td>
+                </tr>
+                <tr>
+                    <th>NAMA PRODUK</th>
+                    <th>PRODUK</th>
+                    <th>DESKRIPSI PRODUK</th>
+                    <th>JUMLAH BARANG</th>
+                    <th>BARANG YANG DIBELI</th>
+                    <th>HARGA</th>
+                    <th>TOTAL HARGA</th>
+                </tr>
+                <tr>
+                    <td>Miniso Beauty Perfume Amber Grace</td>
+                    <td>
+                        <img src="image/amber.jpeg" width="150px" height="150px">
+                    </td>
+                    <td style="padding-left: 20px; padding-right: 20px;">
+                        Ukuran       : 50 ml<br>
+                        Top Note     : Jeruk dan Raspberry<br>
+                        Middle Notes : Bunga Jeruk dan Hazelnut<br>
+                        Base Notes   : Cedar, Amber, Vanilla, dan Musk
+                    </td>
+                    <td>25</td>
+                    <td>2</td>
+                    <td>Rp.69.900</td>
+                    <td><b>Rp.139.800</b></td>
+                </tr>
+                <tr>
+                    <td>Heura Perfue GOOD GIRL</td>
+                    <td>
+                        <img src="image/heura.jpeg" width="150px" height="150px">
+                    </td>
+                    <td style="padding-left: 20px; padding-right: 20px;">
+                        Ukuran       : 25 & 35 ml<br>
+                        Top Notes    : Almond, Coffee, Bergamot, dan Lemon<br>
+                        Middle Notes : Tuberose, Jasmine, dan Bulgarian Rose<br>
+                        Base Notes   : Tonka Bean, Vanilla, dan Cashmere Wood
+                    </td>
+                    <td>18</td>
+                    <td>1</td>
+                    <td>25 ml: Rp.58.702<br>
+                        35 ml: Rp.78.302</td>
+                    <td><b>Rp.58.702</b></td>
+                </tr>
+                <tr>
+                    <td>Laux Perfume COOKIES & CREAM</td>
+                    <td>
+                        <img src="image/laux.jpeg" width="150px" height="150px">
+                    </td>
+                    <td style="padding-left: 20px; padding-right: 20px;">
+                        Ukuran       : 30 & 50 ml<br>
+                        Top Notes    : Raspberry<br>
+                        Middle Notes : Bulgarian Rose dan Peony<br>
+                        Base Notes   : Vanilla, Praline, dan Cinnamon
+                    </td>
+                    <td>15</td>
+                    <td>2</td>
+                    <td>30 ml: Rp.59.000<br>
+                        50 ml: Rp.79.000</td>
+                    <td><b>Rp.138.000</b></td>
+                </tr>
+                <tr>
+                    <td>Paint Me Naked TROPICAL & VANILLA</td>
+                    <td>
+                        <img src="image/paint me naked.jpeg" width="150px" height="150px">
+                    </td>
+                    <td style="padding-left: 20px; padding-right: 20px;">
+                        Ukuran       : 35 ml<br>
+                        Top Notes    : Papyrus dan Coconut<br>
+                        Middle Notes : Skin Accord dan Chamomile<br>
+                        Base Notes   : Vanilla dan Sandalwood
+                    </td>
+                    <td>5</td>
+                    <td>1</td>
+                    <td>Rp.90.000</td>
+                    <td><b>Rp.90.000</b></td>
+                </tr>
             </table>
         </body>
 </html>
