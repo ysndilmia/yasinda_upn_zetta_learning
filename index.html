@@ -1,12 +1,22 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>yasinda_html_day3</title>
+        <title>yasinda_html_day4</title>
         <style type="text/css">
             .desc b {letter-spacing: 5px;}
             th{background-color: rgb(201, 204, 129);}
             .shopping b {letter-spacing: 5px;}
             .shopping td {text-align: center;}
+            .form {
+                border: 2px solid;
+                background-color: rgb(203, 162, 162);
+                margin: auto;
+                text-align: center;
+                padding: 25px;
+                width: 50%;
+                border-radius: 20px;
+            }
+            .form b {letter-spacing: 5px;}
         </style>
     </head>
         <body style="background-color: rgb(190, 190, 180);">
@@ -150,5 +160,77 @@
                     <td><b>Rp.90.000</b></td>
                 </tr>
             </table>
+            <br>
+            <br>
+            <div class="form">
+                <h2 align="center"><b>MY FAVORITE MUSIK</b></h2>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/VyPwEZTIpVc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <h4>Wish You Were Here - Neck Deep</h4>
+                <form>
+                    <table style="text-align: left;">
+                        <tr>
+                            <td><label for="nama">Nama Lengkap</label></td>
+                            <td>:</td>
+                            <td><input type="text" name="nama" id="nama"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="lahir">Tempat Lahir</label></td>
+                            <td>:</td>
+                            <td><input type="text" name="lahir"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="date">Tanggal Lahir</label></td>
+                            <td>:</td>
+                            <td><input type="date" name="date" id="date"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="Umur">Umur</label></td>
+                            <td>:</td>
+                            <td><input type="number" name="Umur" id="Umur"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="Hoby">Hoby</label></td>
+                            <td>:</td>
+                            <td><input type="Text" name="Hbby" id="Hoby"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="jeniskelamin">Jenis Kelamin</label></td>
+                            <td>:</td>
+                            <td>
+                                <input type="radio" name="jeniskelamin" value="Pria"> Pria
+                                <input type="radio" name="jeniskelamin" value="wanita"> Wanita
+                            </td>
+        
+                        </tr>
+                        <tr>
+                            <td><label for="hp">Nomor Telepon</label></td>
+                            <td>:</td>
+                            <td><input type="tel" name="hp" id="hp" value="+62"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="email">Alamat Email</label></td>
+                            <td>:</td>
+                            <td><input type="email" name="email" id="email"></td>
+                        </tr>
+                        <td><label for="Provinsi">Provinsi</label></td>
+                        <td>:</td>
+                        <td>
+                            <select id="province">
+                                <option value="Jawa Tengah">Jawa Tengah</option>
+                                <option value="Jawa Timur">Jawa Timur</option>
+                                <option value="Jawa Barat">Jawa Barat</option>
+                                <option value="Jawa Barat">Daerah Istimewa Yogyakarta</option>
+                                <option value="Jawa Barat">Bali</option>
+                                <option value="Jawa Barat">NTT</option>
+                                <option value="Jawa Barat">NTB</option>
+                        </td>
+                        <tr>
+                            <td><label for="URL">URL Instagram</label></td>
+                            <td>:</td>
+                            <td><input type="text" name="URL" id="URL"></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
         </body>
 </html>
