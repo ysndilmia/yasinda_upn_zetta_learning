@@ -7,6 +7,11 @@ body {
     background-color: rgb(203, 162, 162);
 }
 
+h2 {
+    padding: 5px;
+    letter-spacing: 5px;
+    color: white;
+}
 .column {
     float: left;
     width: 33%;
@@ -41,4 +46,3 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
 }
- 
