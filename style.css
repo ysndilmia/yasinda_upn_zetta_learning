@@ -1,48 +1,99 @@
 * {
     box-sizing: border-box;
 }
+  
+.banner {
+    top: 0;
+    box-sizing: border-box;
+    padding: 5px;
+    background-color: rgb(154, 186, 154);
+    color: white;
+    position: sticky;
+    text-align: center;
+    overflow: hidden;
+    width: 100%;
+}
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(203, 162, 162);
+    font-family: sans-serif;
 }
 
-h2 {
+.table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 1rem;
+}
+
+.tabel {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
     padding: 5px;
-    letter-spacing: 5px;
-    color: white;
-}
-.column {
-    float: left;
-    width: 33%;
-    padding: 0 10px 10px;
 }
 
-.row {margin: 0px;}
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
+.list {
+    text-align: left;
 }
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+    box-shadow: 0 4px 8px 0 rgb(154, 186, 154); 
+    width: 350px;
+    height: 800px;
+    border-radius: 5px;
     padding: 15px;
+    margin-top: 0;
+    margin-left: 1rem;
     text-align: center;
     background-color: #f1f1f1;
+    margin-bottom: 1.5rem;
 }
 
-@media screen and (max-width: 500px) {
-.column {
-    width: 100%;
-    display: block;
-    margin-bottom: 20px;
-}
+.price {
+    color: rgb(154, 186, 154);
+    background-color: #dee17e;
+    padding: 10px;
 }
 
-.cards {
+.button {
+    border: 1px solid;
+    padding: 5px;
+}
+
+img {
+    border-radius: 10px;
+    width: 90%;
+}
+
+.pesan {
+    padding: 10px;
+    text-align: center;
+    border-color: #cec3a7;
+}
+
+footer{
+    padding-right:40px;
+    margin-top:50px;
+    color: black;
+    text-align: center;
+    background-color:rgb(154, 186, 154);
+    width:100%;
+}
+.footer-content{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    align-items: center;
+    border-radius: 1rem;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.socials li{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
 }
