@@ -1,4 +1,4 @@
-function bookPurchasing(book, discount, tax, stock, order){
+function bookPurchasing(book, discount, tax, stock, order, credit){
 
     const price=book.price;
     const discountAmount=price*(discount/100);
@@ -42,9 +42,21 @@ function bookPurchasing(book, discount, tax, stock, order){
         }else{
             console.log("[Stok buku masih tersedia, ayo beli kembali!]");
         }
+
         console.log();
+        console.log("Cicilan Anda          :",credit,"bulan");
         console.groupEnd();
     }
+
+    jatuhTempo= totalPaymentPrice/credit;
+    pembayaranCredit = [];
+    for(let index=0; index<credit; index++){
+        pembayaranCredit.push({
+            Pembayaran_Bulan_Ke: index+1,
+            Rp: jatuhTempo
+        })
+    }
+    console.log(Array.from(pembayaranCredit));
     return totalPaymentPrice;
 }
-bookPurchasing({title: "Septihan", price: 99000, status: true},20,10,5,3);
+bookPurchasing({title: "Septihan", price: 99000, status: true},20,10,5,3,7);
