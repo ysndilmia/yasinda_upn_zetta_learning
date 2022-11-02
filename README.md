@@ -1,4 +1,5 @@
 yasinda ilmia sistem informasi
+
 Angular adalah platform dan frameork yang digunakan untuk membangun aplikasi client menggunakan HTML dan typescript. angular ditulis menggunakan typescript untuk memudahkanmu dalam implementasi dan opsional ke dalam aplikasi yang kamu buat.
 
 Arsitektur anggular bergantung pada konsep dasar tertentu . blok pentusun NgModules, yang menyediakan konteks kompilasi untuk komponen.
