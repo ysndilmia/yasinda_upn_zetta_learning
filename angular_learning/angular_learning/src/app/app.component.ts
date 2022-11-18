@@ -1,4 +1,6 @@
+import { DataService } from './service/data.service';
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'angular_learning';
+  title(title: any) {
+    throw new Error('Method not implemented.');
+  }
+  // title = 'AngularProject';
 }
